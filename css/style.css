@@ -1,0 +1,55 @@
+.plane,.ruby, .heart, .coffee, .food{
+
+	float:left;
+	background-color: #FBFBFB;
+	height: 162px;
+	width: 116px;
+	color:#6F6F6F;
+	font-size: 9px;
+	text-align: center;
+	padding-top: 14px;
+	margin: 5px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+	filter: drop-shadow(1px 1px 1px #E0E5EF);
+}
+
+h6{
+	font-size: 8px;
+	margin-bottom: -5px;
+}
+
+h3{
+	font-size: 12px;
+	font-family: 'PT Serif', serif;
+	font-family: 'Noto Serif', serif;
+	font-family: 'Bitter', serif;
+}
+.icon-paperplane, .icon-diamond, .icon-heart,
+.icon-cup, .icon-food{
+
+	font-size: 30px;
+}
+
+p {
+	font-family: 'Catamaran', sans-serif;
+	font-family: 'Exo', sans-serif;
+	font-size: 8px;
+	line-height: 10px;
+	padding: 5px;
+}
+
+.plane:hover,.ruby:hover, .heart:hover, 
+.coffee:hover, .food:hover {
+  background-color: #FFFFFF;
+  width: 126px;
+  height: 172px;
+  font-size: 40px;
+  color:#F0F1F5;
+
+}
+
+.icon-paperplane:hover, .icon-diamond:hover, 
+.icon-heart:hover,.icon-cup:hover, .icon-food:hover{
+	font-size: 50px;
+}
