@@ -39,17 +39,14 @@ p {
 	padding: 5px;
 }
 
-.plane:hover,.ruby:hover, .heart:hover, 
-.coffee:hover, .food:hover {
-  background-color: #FFFFFF;
-  width: 126px;
-  height: 172px;
-  font-size: 40px;
-  color:#F0F1F5;
 
+
+.plane:hover, .ruby:hover, .heart:hover,
+.coffee:hover, .food:hover{
+	-moz-transform: scale(1.14, 1.14); /* Moz-browsers */
+    zoom: 1.14; 
+    zoom: 114%;
+    background-color: #FFFFFF;
+	color:#F0F1F5;
 }
 
-.icon-paperplane:hover, .icon-diamond:hover, 
-.icon-heart:hover,.icon-cup:hover, .icon-food:hover{
-	font-size: 50px;
-}
